@@ -10,7 +10,6 @@ jobs:
     - name: 'Checkout code'
       uses: actions/checkout@v2
     - name: 'Check submodule commit branch'
-      uses: jtmullen/submodule-branch-check-action@v1
       with:
         path: assets/protobuf
         branch: dev
